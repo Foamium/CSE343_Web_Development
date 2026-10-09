@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header{
+    background-color: black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1px;
+}
+
+nav{
+    background-color: black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+    margin: 3px;
+    border: thin outset black;
+}
+
+#message{
+    height: 150px;
+    width: 400px;
+    margin: 3px;
+    border: thin outset black;
+    resize: none;
+}
+
+input, textarea, select, button{
+    font-family: inherit;
+}
+
+.project{
+    background-color: grey;
+    height: 150px;
+    width: 250px;
+    border: thin outset black;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
