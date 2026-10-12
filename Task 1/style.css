@@ -40,7 +40,26 @@ footer{
 section{
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 75px;
+    margin-bottom: 125px;
+}
+
+.project{
+    background-color: lightslategrey;
+    height: fit-content;
+    min-height: 150px;
+    width: 250px;
+    overflow-wrap: break-word;
+    border: thin outset black;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+.project:hover{
+    transform: translateY(-8px); 
+    box-shadow: 0 10px 20px;
 }
 
 input{
@@ -62,13 +81,9 @@ input, textarea, select, button{
     font-family: inherit;
 }
 
-.project{
-    background-color: grey;
-    height: 150px;
-    width: 250px;
-    border: thin outset black;
-    border-radius: 6px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 5px;
+#contact button{
+    color: black;
+    width: 200px;
+    height: 25px;
+    margin-top: 2px;
 }

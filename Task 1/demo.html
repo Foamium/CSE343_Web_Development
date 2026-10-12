@@ -6,7 +6,7 @@
 
     <body>
         <header>
-            <h3>Khaled Ehab Rashad Tolba</h3> <h5>ASUENG Student | Computer Engineer</h5>
+            <h3>Khaled Ehab Rashad Tolba</h3> <h5>Computer Engineering Undergraduate</h5>
         </header>
 
         <nav>
@@ -21,27 +21,35 @@
 
         <section id="projects">
             <h2> Projects </h2>
+
             <div class="project">
                 <h3>Scene Style Classification Model</h3>
-                <p>Trained a CNN model capable of classifying 17 different scene styles</p>
+                <p>Trained a CNN model capable of classifying 17 different scene styles using Python</p>
             </div>
 
             <div class="project">
-                <h3>Diagram design for food delivery application</h3>
-                <p>Designed use-case, class, and activity diagrams for a talabat-like application</p>
+                <h3>Car Rental Application with Functional Database</h3>
+                <p>Designed a desktop application using C#, connecting to a SQLServer database containing user and vehicle information.</p>
             </div>
             
             <div class="project">
-                <h3>DNA storage and search application</h3>
-                <p>Implemented using the radix tree data structure</p>
+                <h3>DNA Storage and Search Application</h3>
+                <p>Implemented using the radix tree data structure in C++, visualized using graphviz.</p>
             </div>
+
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <input type="text" placeholder="Your name"><br>
-            <input placeholder="Your email"><br>
-            <textarea name="message" id="message" placeholder="Your message"></textarea>
+
+            <form onsubmit="event.preventDefault(); this.reset();">
+                <input type="text" placeholder="Your name"><br>
+                <input placeholder="Your email"><br>
+                <textarea name="message" id="message" placeholder="Your message"></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+
         </section>
 
         <footer>
