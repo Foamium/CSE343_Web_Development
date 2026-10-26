@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="maincontainer">
+            <h3>Todo List</h3>
+
+            <div class="input_row"> 
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button id="addTaskButton">Add</button>
+            </div>
+
+            <div class="filter_row">
+                <p class="tip">Tip: Double click a task to edit. Press Enter to save.</p>
+
+                <div class="filter_group">
+                    <label class="filter_label" for="showAll">
+                        <input type="radio" id="showAll" name="filter" value="all" checked>
+                        <span>All</span>
+                    </label>
+                    <label class="filter_label" for="showActive">
+                        <input type="radio" id="showActive" name="filter" value="active">
+                        <span>Active</span>
+                    </label>
+                    <label class="filter_label" for="showCompleted">
+                        <input type="radio" id="showCompleted" name="filter" value="completed">
+                        <span>Completed</span>
+                    </label>
+                </div>
+            </div>
+
+            <ul id="taskList">
+            </ul>
+
+            <div class="task_control">
+                <p><span id="activeCount">0</span> tasks left</p>
+                <div class="button_group">
+                    <button id="clearCompletedButton">Clear Completed</button>
+                    <button id="clearAllButton">Clear All</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
