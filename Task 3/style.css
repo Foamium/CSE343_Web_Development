@@ -130,9 +130,9 @@ input[type="text"]{
 
 #taskList li{
     display: flex;
-    justify-content: space-between;
     font-size: 16px;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
