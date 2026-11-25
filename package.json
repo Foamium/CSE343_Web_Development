@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Foamium/CSE343_Web_Development#readme",
   "devDependencies": {
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
   }
 }
